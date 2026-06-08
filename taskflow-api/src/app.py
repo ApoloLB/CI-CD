@@ -13,3 +13,7 @@ if __name__ == "__main__":
 @app.route("/status")
 def status():
     return {"status": "API online"}
+
+@app.route("/")
+def home():
+    return "Sistema de Gerenciamento de Biblioteca"
